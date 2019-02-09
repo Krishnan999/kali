@@ -9,21 +9,21 @@ int main()
         {
             if(a%400)
             {
-                printf("leap yera");
+                printf("yes");
             }
             else
             {
-                printf("not a leap");
+                printf("no");
             }
             
         }
         else
             {
-                printf("leap year");
+                printf("yes");
             }
     }
     else
-    printf("not leap");
+    printf("no");
     
     return 0;
 }
